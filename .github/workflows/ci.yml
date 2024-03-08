@@ -84,7 +84,7 @@ jobs:
           key: all-features-${{ matrix.all-features }}-msrv-cargo-files-${{ hashFiles('**/Cargo.*.msrv') }}
 
       - name: Install just, cargo-hack and cargo-minimal-versions
-        uses: taiki-e/install-action@28b5a55da2f568d1d1e3f8d5ea6e7103685abc6a
+        uses: taiki-e/install-action@715c07ff046a1badca82fa42e5708f37e405a997
         with:
           tool: just,cargo-hack,cargo-minimal-versions
 
@@ -130,7 +130,7 @@ jobs:
           key: ignore-lock-${{ matrix.ignore-lock }}-all-features-${{ matrix.all-features }}
 
       - name: Install just
-        uses: taiki-e/install-action@28b5a55da2f568d1d1e3f8d5ea6e7103685abc6a
+        uses: taiki-e/install-action@715c07ff046a1badca82fa42e5708f37e405a997
         with:
           tool: just
 
@@ -159,7 +159,7 @@ jobs:
           cache-targets: false
 
       - name: Install cargo-tarpaulin
-        uses: taiki-e/install-action@28b5a55da2f568d1d1e3f8d5ea6e7103685abc6a
+        uses: taiki-e/install-action@715c07ff046a1badca82fa42e5708f37e405a997
         with:
           tool: cargo-tarpaulin
 
@@ -211,7 +211,7 @@ jobs:
           cache-targets: false
 
       - name: Install just
-        uses: taiki-e/install-action@28b5a55da2f568d1d1e3f8d5ea6e7103685abc6a
+        uses: taiki-e/install-action@715c07ff046a1badca82fa42e5708f37e405a997
         with:
           tool: just
 
@@ -237,7 +237,7 @@ jobs:
           cache-targets: false
 
       - name: Install just
-        uses: taiki-e/install-action@28b5a55da2f568d1d1e3f8d5ea6e7103685abc6a
+        uses: taiki-e/install-action@715c07ff046a1badca82fa42e5708f37e405a997
         with:
           tool: just
 
